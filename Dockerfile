@@ -2,8 +2,7 @@ FROM ubuntu:18.04
 LABEL maintainer="Cryptape Technologies <contact@cryptape.com>"
 
 RUN apt-get update \
-    && apt-get install -y rabbitmq-server \
-                          python3-pip \
+    && apt-get install -y python3-pip \
                           capnproto \
                           libsnappy-dev \
                           libgoogle-perftools-dev \
